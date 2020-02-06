@@ -20,6 +20,8 @@ sudo ./docker.sh
 ```
 cd scripts
 sudo ./go.sh
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 ```
 
 **Please logout and login again.**

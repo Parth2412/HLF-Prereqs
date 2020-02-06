@@ -24,14 +24,14 @@ sudo ./go.sh
 
 **Please logout and login again.**
 
-#### For Verifying the Docker Installation
+#### To Verify the Docker Installation
 ```
 docker --version
 docker-compose --version
 ```
 This commands will display the version of the docker & docker-compose installed on your machine.
 
-#### For Verifying the GOLANG Installation
+#### To Verify the GOLANG Installation
 ```
 go version
 ```
@@ -44,7 +44,7 @@ sudo -E ./fabric-setup.sh
 ```
 This will download all the necessary binaries of the hyperledger fabric. Script may take upto 30-40 Minutes depending on your internet speed. It will download approx **1.5GB to 2.5GB**.
 
-#### For Verifying the Installation of all the binaries of Hyperledger Fabric
+#### To Verify the Installation of all the binaries of Hyperledger Fabric
 ```
 docker images
 ```
@@ -55,7 +55,7 @@ This command will display all the binaries of the Hyperledger Fabric.
 cd scripts
 sudo -E ./caserver-setup.sh
 ```
-This will download the binaries of the certification authority for the hyperledger fabric.
+This will download the binaries of the Certification Authority for the hyperledger fabric.
 
 #### For Installation of JQ - The commandline JSON Processor
 ```
@@ -63,7 +63,7 @@ cd scripts
 sudo ./jq.sh
 ```
 
-#### For Verifying the Installation of JQ
+#### To Verify the Installation of JQ
 ```
 jq
 ```

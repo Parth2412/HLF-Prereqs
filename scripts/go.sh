@@ -2,8 +2,8 @@
 if [ -z $SUDO_USER ]
 then
     echo "===== Script need to be executed with sudo ===="
-    echo "Change directory to 'setup'"
-    echo "Usage: sudo ./caserver.sh"
+    echo "Change directory to 'scripts'"
+    echo "Usage: sudo ./go.sh"
     exit 0
 fi
 

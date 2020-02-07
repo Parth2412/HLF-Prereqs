@@ -20,8 +20,27 @@ sudo ./docker.sh
 ```
 cd scripts
 sudo ./go.sh
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+```
+#### For Setting GOLANG PATH
+```
+You have to edit .bashrc
+To edit .bashrc file continue with following steps
+
+1. Open .bashrc file in vim or nano
+  vim ~/.bashrc  OR nano ~/.bashrc
+  
+2. Add these lines at the bottom of .bashrc file
+  export GOPATH=$HOME/go
+  export PATH=$PATH:$GOPATH/bin
+
+3. Exit the editor
+  For vim : hit Esc followed by !wq then hit Enter
+  For nano: hit Ctrl+x followed by Enter Enter
+  
+4. Reloading .bashrc file
+  Type source ~/.bashrc
+  
+*If you get error while saving or reloading  .bashrc file retry 1 & 4 commands with sudo
 ```
 
 **Please logout and login again.**
